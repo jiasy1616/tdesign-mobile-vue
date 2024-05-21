@@ -208,7 +208,6 @@ export default defineComponent({
       } else if (rect) {
         setContainerHeight(rect.height);
       }
-      updateItemPosition();
     };
 
     watch(current, updateContainerHeight);
